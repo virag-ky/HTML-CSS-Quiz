@@ -11,13 +11,19 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 1.2em;
+  font-size: 1em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
 }
 h1 {
   padding-left: 50px;
+  margin: 0;
 }
 nav {
-  margin-right: 100px;
+  padding-right: 100px;
+  margin: 0;
 }
 nav ul {
   display: flex;
@@ -33,4 +39,40 @@ nav a {
 nav a:hover {
   cursor: pointer;
   color: rgb(180, 180, 185);
+}
+main {
+  width: 80%;
+  max-width: 800px;
+  margin: 80px auto;
+}
+fieldset {
+  border: none;
+}
+#html,
+#css {
+  border: 1px solid black;
+  background-color: rgb(58, 54, 100);
+  color: white;
+}
+#html fieldset,
+#css fieldset {
+  border: 1px solid white;
+}
+fieldset#student-info {
+  display: flex;
+  flex-direction: column;
+  margin: 40px auto;
+}
+h2#student-info {
+  text-decoration: underline;
+}
+section#student-info {
+  margin: 140px auto;
+}
+#student-info label {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+#student-info input {
+  font-size: 1em;
 }
