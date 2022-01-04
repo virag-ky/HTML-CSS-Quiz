@@ -1,0 +1,36 @@
+* {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-size: 1.2em;
+}
+header {
+  background-color: rgb(58, 54, 100);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2em;
+}
+h1 {
+  padding-left: 50px;
+}
+nav {
+  margin-right: 100px;
+}
+nav ul {
+  display: flex;
+  gap: 100px;
+}
+nav > ul > li {
+  list-style: none;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav a:hover {
+  cursor: pointer;
+  color: rgb(180, 180, 185);
+}
