@@ -19,66 +19,119 @@
       </nav>
     </header>
     <main>
-      <section role="region" aria-labelledby="student-info">
-        <h2 id="student-info">Student Information</h2>
-        <fieldset>
-          <label for="name">
-            Enter Your Name:
-            <input type="text" id="name" />
-          </label>
-          <label for="email">
-            Enter Your Email:
-            <input type="email" id="email" />
-          </label>
-          <label for="DOB">
-            Date of Birth:
-            <input type="date" id="DOB" />
-          </label>
-        </fieldset>
-      </section>
-      <section role="region" aria-labelledby="html-questions">
-        <h2 id="html-questions">HTML</h2>
-        <legend>&quot;ul&quot; stands for &quot;unordered list&quot;</legend>
-        <fieldset id="question1">
-          <label for="true">
-            <input type="radio" id="true" value="true" name="first-question" />
-            True
-          </label>
-          <label for="false">
-            <input
-              type="radio"
-              id="false"
-              value="false"
-              name="first-question"
-            />
-            False
-          </label>
-        </fieldset>
-        <legend>&quot;h1&quot; is the biggest heading element</legend>
-        <fieldset>
-          <label for="true-second">
-            <input
-              type="radio"
-              id="true-second"
-              value="true"
-              name="second-question"
-            />
-            True
-          </label>
-          <label for="false-second">
-            <input
-              type="radio"
-              id="false-second"
-              value="false"
-              name="second-question"
-            />
-            False
-          </label>
-        </fieldset>
-      </section>
-      <section role="region" aria-labelledby="css-questions">
-        <h2 id="css-questions">CSS</h2>
-      </section>
+      <form>
+        <section role="region" aria-labelledby="student-info">
+          <h2 id="student-info">Student Information</h2>
+          <fieldset>
+            <label for="name">
+              Enter Your Name:
+              <input type="text" id="name" />
+            </label>
+            <label for="email">
+              Enter Your Email:
+              <input type="email" id="email" />
+            </label>
+            <label for="DOB">
+              Date of Birth:
+              <input type="date" id="DOB" />
+            </label>
+          </fieldset>
+        </section>
+        <section role="region" aria-labelledby="html-questions">
+          <h2 id="html-questions">HTML</h2>
+          <legend>&quot;ul&quot; stands for &quot;unordered list&quot;</legend>
+          <fieldset id="question1">
+            <label for="true">
+              <input
+                type="radio"
+                id="true"
+                value="true"
+                name="first-question"
+              />
+              True
+            </label>
+            <label for="false">
+              <input
+                type="radio"
+                id="false"
+                value="false"
+                name="first-question"
+              />
+              False
+            </label>
+          </fieldset>
+          <legend>&quot;h1&quot; is the biggest heading element</legend>
+          <fieldset>
+            <label for="true-second">
+              <input
+                type="radio"
+                id="true-second"
+                value="true"
+                name="second-question"
+              />
+              True
+            </label>
+            <label for="false-second">
+              <input
+                type="radio"
+                id="false-second"
+                value="false"
+                name="second-question"
+              />
+              False
+            </label>
+          </fieldset>
+        </section>
+        <section role="region" aria-labelledby="css-questions">
+          <h2 id="css-questions">CSS</h2>
+          <legend>
+            &quot;margin: 5px auto&quot; horizontally centers an element
+          </legend>
+          <fieldset>
+            <label for="true-third">
+              <input
+                type="radio"
+                id="true-third"
+                value="true"
+                name="third-question"
+              />
+              True
+            </label>
+            <label for="false-third">
+              <input
+                type="radio"
+                id="false-third"
+                value="false"
+                name="third-question"
+              />
+              False
+            </label>
+          </fieldset>
+          <legend>
+            &quot;color: blue&quot; sets the background color blue
+          </legend>
+          <fieldset>
+            <label for="true-fouth">
+              <input
+                type="radio"
+                id="true-fourth"
+                value="true"
+                name="fourth-question"
+              />
+              True
+            </label>
+            <label for="false-fourth">
+              <input
+                type="radio"
+                id="false-fourth"
+                value="false"
+                name="fourth-question"
+              />
+              False
+            </label>
+          </fieldset>
+        </section>
+      </form>
     </main>
   </body>
 </html>
