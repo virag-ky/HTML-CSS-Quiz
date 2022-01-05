@@ -3,7 +3,7 @@
 }
 body {
   margin: 0;
-  font-size: 1.2em;
+  font-size: 1.4em;
 }
 header {
   background-color: rgb(58, 54, 100);
@@ -92,4 +92,27 @@ legend {
 #question4 label {
   display: block;
   padding: 10px;
+}
+select,
+textarea {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 50px;
+  font-size: 0.7em;
+}
+select {
+  background-color: rgb(58, 54, 100);
+  color: white;
+  padding: 5px;
+}
+textarea {
+  font-size: 1em;
+  padding: 5px;
+}
+input[type="submit"] {
+  margin: 10px auto;
+  background-color: rgb(58, 54, 100);
+  color: white;
+  cursor: pointer;
+  border: none;
 }
