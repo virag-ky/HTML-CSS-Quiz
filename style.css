@@ -113,7 +113,7 @@ textarea {
   padding: 5px;
 }
 input[type="submit"] {
-  margin-left: 40%;
+  margin-left: 38%;
   margin-bottom: 80px;
   background-color: rgb(58, 54, 100);
   color: white;
@@ -137,3 +137,88 @@ address {
 span {
   display: block;
 }
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 0.7em;
+  }
+  header {
+    width: 100%;
+  }
+  h1 {
+    font-size: 14px;
+    padding-left: 12px;
+    word-spacing: 2px;
+  }
+  nav {
+    padding-right: 28px;
+  }
+  nav ul {
+    font-size: 10px;
+    gap: 10px;
+  }
+  main {
+    width: 280px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  section#student-info {
+    margin: 15px auto;
+  }
+  fieldset#student-info {
+    margin: 20px auto;
+  }
+  input#DOB {
+    padding: 1px;
+  }
+  #html,
+  #css {
+    margin-bottom: 20px;
+  }
+  select,
+  textarea {
+    margin-bottom: 15px;
+  }
+  textarea {
+    width: 200px;
+    height: 80px;
+  }
+  input[type="submit"] {
+    margin-bottom: 0;
+    width: 25%;
+  }
+  footer {
+    padding-top: 3px;
+    padding-bottom: 0;
+    height: 46px;
+    width: 100%;
+  }
+  address {
+    line-height: 12px;
+  }
+  #question1 label,
+  #question2 label,
+  #question3 label,
+  #question4 label {
+    padding: 2px;
+  }
+}
+@media only screen and (min-width: 650px) {
+    header {
+        height: 80px;
+    }
+  h1 {
+    font-size: 26px;
+  }
+  h2 {
+      font-size: 24px;
+  }
+  nav ul {
+    font-size: 20px;
+    gap: 30px;
+  }
+  textarea {
+    width: 400px;
+    height: 80px;
+  }
+
